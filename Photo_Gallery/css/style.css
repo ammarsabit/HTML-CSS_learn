@@ -2,12 +2,11 @@
     display: grid;
     justify-content: center;
     align-content: center;
-    justify-items: center;
-    align-items: center;
+    grid-gap: 10px;
 }
 
 .gallery img {
-    width: 95%;
+    width: 100%;
     object-fit: cover;
     border-radius: 5px;
 }
