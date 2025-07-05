@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" class="login">
+      <h1>Please Sign in</h1>
+      <div class="form-group">
+        <input
+          type="email"
+          placeholder="Email"
+          name="Email"
+          autofocus
+          required
+          minlength="5"
+          maxlength="255"
+        />
+      </div>
+      <div class="form-group">
+        <input
+          type="password"
+          placeholder="password"
+          name="password"
+          required
+          maxlength="255"
+        />
+      </div>
+      <div class="save">
+        <input type="checkbox" id="remember" />
+        <label for="remember">Remember me</label>
+      </div>
+      <button type="submit">Sign in</button>
+      <p id="copyright">Copyright &copy 2025</p>
+    </form>
+  </body>
+</html>
